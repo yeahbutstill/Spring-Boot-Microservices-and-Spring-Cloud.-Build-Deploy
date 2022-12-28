@@ -2,5 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/mobile-app-ws/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photoappaccountmanagement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photoappaccountmanagement/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photoappdiscoveryservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photoappdiscoveryservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photoappusers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/photoappusers/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Boot-Microservices-and-Spring-Cloud.-Build-Deploy.iml" filepath="$PROJECT_DIR$/.idea/Spring-Boot-Microservices-and-Spring-Cloud.-Build-Deploy.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile-app-ws/mobile-app-ws.iml" filepath="$PROJECT_DIR$/mobile-app-ws/mobile-app-ws.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoappaccountmanagement/photoappaccountmanagement.iml" filepath="$PROJECT_DIR$/photoappaccountmanagement/photoappaccountmanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoappdiscoveryservice/photoappdiscoveryservice.iml" filepath="$PROJECT_DIR$/photoappdiscoveryservice/photoappdiscoveryservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoappusers/photoappusers.iml" filepath="$PROJECT_DIR$/photoappusers/photoappusers.iml" />
     </modules>
   </component>
 </project>

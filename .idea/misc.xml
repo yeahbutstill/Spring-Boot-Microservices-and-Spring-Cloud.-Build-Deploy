@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/mobile-app-ws/pom.xml" />
+        <option value="$PROJECT_DIR$/photoappdiscoveryservice/pom.xml" />
+        <option value="$PROJECT_DIR$/photoappusers/pom.xml" />
+        <option value="$PROJECT_DIR$/photoappaccountmanagement/pom.xml" />
       </list>
     </option>
   </component>
