@@ -1,1 +1,6 @@
-# Spring-Boot-Microservices-and-Spring-Cloud.-Build-Deploy
+# Spring-Boot-Microservices-and-Spring-Cloud-Build-Deploy
+
+## Download and Install RabbitMQ
+```shell
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
+```
