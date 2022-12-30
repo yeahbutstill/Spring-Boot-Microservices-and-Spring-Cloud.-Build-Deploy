@@ -13,8 +13,6 @@ E
 mobile-app-ws/pom.xml,0/3/03c7584b95f0bb1482b9a95ada25305b30b7dc4b
 ñ
 fPhotoAppApiAlbums/src/main/java/com/yeahbutstill/photoapp/api/albums/PhotoAppApiAlbumsApplication.java,1/4/1453c5bdeabdb2203c4e72c16a2c85884f6094ac
-á
-WPhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/data/UserEntity.java,d/0/d0aa44977161f99ef581fb531a4864c742426c98
 ê
 `PhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/data/AlbumsServiceClient.java,d/4/d45ba74e3e4d2828c288b66f199bb414706ad0bc
 ì
@@ -43,20 +41,14 @@ emobile-app-ws/src/main/java/com/yeahbutstill/app/ws/exceptions/UserServiceExcep
 hPhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/model/response/UserResponseModel.java,f/0/f0d3285e459ec9747a99c429ad0da9ee21861af5
 ó
 gPhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/model/request/LoginRequestModel.java,5/9/59ffd6d94bb0d5250ba900b6172b508c81ac3666
-†
-pPhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/exceptions/AuthenticationFilterException.java,4/4/445ef33d41468e814d4505c5ddd92ad4cd5aa840
 å
 \PhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/service/UsersService.java,e/7/e794bab35464738e90530773b548f11f732e1b20
 ï
 ePhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/service/impl/UsersServiceImpl.java,6/4/64cd211bb40fccd953d3bceca8b9cc18732adf5c
 å
 \PhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/security/WebSecurity.java,6/5/65fc0f3e8d6a2eb149acfba029470b2c4aff7bfd
-ß
-wPhotoAppApiZuulAPIGateway/src/main/java/com/yeahbutstill/photoapp/api/gateway/PhotoAppApiZuulApiGatewayApplication.java,a/8/a8a610199ad6140f0a53fea92cce2fd7c148b442
 î
 dSpringCloudAPIGateway/src/main/java/com/yeahbutstill/photoapp/api/gateway/ApiGatewayApplication.java,b/4/b4d038483193acf915c7e1a09407120073f8eb06
-M
-SpringCloudAPIGateway/pom.xml,4/c/4cbe3b15970dbb4e95cbe09b7f6dc630f4dd0617
 ä
 ZSpringCloudAPIGateway/src/main/java/com/yeahbutstill/photoapp/api/gateway/MyPreFilter.java,3/d/3db988f1190ff8c161c0c97b4c63cfa95a2957a3
 ò
@@ -65,23 +57,7 @@ hSpringCloudAPIGateway/src/main/java/com/yeahbutstill/photoapp/api/gateway/Autho
 iSpringCloudAPIGateway/src/main/java/com/yeahbutstill/photoapp/api/gateway/GlobalFiltersConfiguration.java,f/a/faae68ae149159967b66785c770997588e9fa743
 ã
 [SpringCloudAPIGateway/src/main/java/com/yeahbutstill/photoapp/api/gateway/MyPostFilter.java,b/e/bee24d1447cc26fa9373e48f178474654af805a2
-P
- PhotoAppDiscoveryService/pom.xml,8/5/8555365736d33305fb9ee941b6b935cb8a37c840
-õ
-kPhotoAppAPIConfigServer/src/main/java/com/yeahbutstill/photoapp/api/PhotoAppApiConfigServerApplication.java,5/0/50285ecc7b245992b61e0b612baf1fd2dee6faf8
-H
-PhotoAppApiUsers/pom.xml,c/e/ce899db8f394106ca376f0f2f6d1d516d73ca123
-Q
-!PhotoAppApiZuulAPIGateway/pom.xml,4/d/4d98290d0bf4049636cf75ae133777b36273c9e1
-T
-$PhotoAppApiAccountManagement/pom.xml,6/3/638ef8fb0671e36903357fb4f649c71e919a4411
-O
-PhotoAppAPIConfigServer/pom.xml,7/5/75cb2d461c45775fa75622aade949de78c19a109
 ì
 cPhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/controllers/UsersController.java,b/6/b65031def7fdbde77bbb66e6663966ce559dfc96
 ¢
 rPhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/security/AuthenticationFilterSymflowerTest.java,2/7/2734799a293b29bc9eefa5eb4659c0167013c27e
-ï
-ePhotoAppApiUsers/src/main/java/com/yeahbutstill/photoapp/api/users/security/AuthenticationFilter.java,7/f/7f87e8c53b021ab2136fc83929d6f5f51818382e
-ü
-oPhotoAppApiZuulAPIGateway/src/main/java/com/yeahbutstill/photoapp/api/gateway/security/AuthorizationFilter.java,4/c/4cc954186a95b3d3f7cc7e2ec1248ac9d4e91cda
