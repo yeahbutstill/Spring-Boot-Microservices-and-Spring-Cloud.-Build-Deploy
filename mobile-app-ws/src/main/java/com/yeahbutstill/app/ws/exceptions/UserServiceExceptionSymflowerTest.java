@@ -1,8 +1,9 @@
 package com.yeahbutstill.app.ws.exceptions;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.junit.jupiter.api.*;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class UserServiceExceptionSymflowerTest {
 	@Test

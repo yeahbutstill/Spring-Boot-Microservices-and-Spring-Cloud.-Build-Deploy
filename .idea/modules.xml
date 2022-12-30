@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAPIGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/SpringCloudAPIGateway/ApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppAPIConfigServer/PhotoAppAPIConfigServer.iml" filepath="$PROJECT_DIR$/PhotoAppAPIConfigServer/PhotoAppAPIConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" filepath="$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppApiAlbums/PhotoAppApiAlbums.iml" filepath="$PROJECT_DIR$/PhotoAppApiAlbums/PhotoAppApiAlbums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppApiUsers/PhotoAppApiUsers.iml" filepath="$PROJECT_DIR$/PhotoAppApiUsers/PhotoAppApiUsers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppApiZuulAPIGateway/PhotoAppApiZuulAPIGateway.iml" filepath="$PROJECT_DIR$/PhotoAppApiZuulAPIGateway/PhotoAppApiZuulAPIGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppDiscoveryService/PhotoAppDiscoveryService.iml" filepath="$PROJECT_DIR$/PhotoAppDiscoveryService/PhotoAppDiscoveryService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Boot-Microservices-and-Spring-Cloud.-Build-Deploy.iml" filepath="$PROJECT_DIR$/.idea/Spring-Boot-Microservices-and-Spring-Cloud.-Build-Deploy.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobile-app-ws/mobile-app-ws.iml" filepath="$PROJECT_DIR$/mobile-app-ws/mobile-app-ws.iml" />
-      <module fileurl="file://$PROJECT_DIR$/photoappaccountmanagement/photoappaccountmanagement.iml" filepath="$PROJECT_DIR$/photoappaccountmanagement/photoappaccountmanagement.iml" />
-      <module fileurl="file://$PROJECT_DIR$/photoappdiscoveryservice/photoappdiscoveryservice.iml" filepath="$PROJECT_DIR$/photoappdiscoveryservice/photoappdiscoveryservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/photoappusers/photoappusers.iml" filepath="$PROJECT_DIR$/photoappusers/photoappusers.iml" />
     </modules>
   </component>
 </project>
