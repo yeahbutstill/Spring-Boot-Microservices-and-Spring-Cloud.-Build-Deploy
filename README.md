@@ -41,3 +41,9 @@ run this to clear warning, it is recommended to migrate to PKCS12 which is an in
 ```shell
 keytool -importkeystore -srckeystore apiEncryptionKey.jks -destkeystore apiEncryptionKey.jks -deststoretype pkcs12
 ```
+
+
+## Refrensi
+- https://www.appsdeveloperblog.com/restful-web-services/restful-web-services-with-spring-mvc/
+- https://www.appsdeveloperblog.com/microservices-and-spring-cloud-tutorials-for-beginners/
+- https://www.appsdeveloperblog.com/category/oauth2/

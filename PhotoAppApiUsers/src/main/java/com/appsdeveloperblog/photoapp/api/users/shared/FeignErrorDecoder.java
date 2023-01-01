@@ -1,5 +1,6 @@
 package com.appsdeveloperblog.photoapp.api.users.shared;
 
+import com.netflix.hystrix.exception.HystrixBadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
@@ -24,12 +25,11 @@ public class FeignErrorDecoder implements ErrorDecoder {
 	public Exception decode(String methodKey, Response response) {
 		switch (response.status()) {
 		case 400:
-			// Do something
-			// return new BadRequestException();
-			break;
+			return new HystrixBadRequestException("albums.exceptions.albums-not-found");
 		case 404: {
 			if (methodKey.contains("getAlbums")) {
-				return new ResponseStatusException(HttpStatus.valueOf(response.status()), environment.getProperty("albums.exceptions.albums-not-found"));
+				return new ResponseStatusException(HttpStatus.valueOf(response.status()),
+						environment.getProperty("albums.exceptions.albums-not-found"));
 			}
 			break;
 		}

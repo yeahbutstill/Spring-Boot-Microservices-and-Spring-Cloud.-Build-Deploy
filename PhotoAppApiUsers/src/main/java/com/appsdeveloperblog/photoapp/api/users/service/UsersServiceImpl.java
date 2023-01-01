@@ -32,7 +32,6 @@ public class UsersServiceImpl implements UsersService {
 	
 	UsersRepository usersRepository;
 	BCryptPasswordEncoder bCryptPasswordEncoder;
-	//RestTemplate restTemplate;
 	Environment environment;
 	AlbumsServiceClient albumsServiceClient;
 	
@@ -95,15 +94,7 @@ public class UsersServiceImpl implements UsersService {
         if(userEntity == null) throw new UsernameNotFoundException("User not found");
         
         UserDto userDto = new ModelMapper().map(userEntity, UserDto.class);
-        
-        /*
-        String albumsUrl = String.format(environment.getProperty("albums.url"), userId);
-        
-        ResponseEntity<List<AlbumResponseModel>> albumsListResponse = restTemplate.exchange(albumsUrl, HttpMethod.GET, null, new ParameterizedTypeReference<List<AlbumResponseModel>>() {
-        });
-        List<AlbumResponseModel> albumsList = albumsListResponse.getBody(); 
-        */
-        
+
         logger.info("Before calling albums Microservice");
         List<AlbumResponseModel> albumsList = albumsServiceClient.getAlbums(userId);
         logger.info("After calling albums Microservice");

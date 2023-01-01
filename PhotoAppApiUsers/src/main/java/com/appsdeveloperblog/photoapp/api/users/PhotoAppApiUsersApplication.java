@@ -77,12 +77,5 @@ public class PhotoAppApiUsersApplication {
 		System.out.println("Development bean created. myapplication.environment = " + environment.getProperty("myapplication.environment"));
 		return "Development bean";
 	}
-	
-	/*
-	@Bean
-	public FeignErrorDecoder getFeignErrorDecoder()
-	{
-		return new FeignErrorDecoder();
-	} */
 
 }

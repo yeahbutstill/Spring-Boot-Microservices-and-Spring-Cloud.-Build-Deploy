@@ -30,12 +30,6 @@ I
 _PhotoAppApiAlbums/src/main/java/com/appsdeveloperblog/photoapp/api/albums/data/AlbumEntity.java,4/6/467178ab4ce728ef34c64b81bed0ff8f0678d90e
 î
 dPhotoAppApiAlbums/src/main/java/com/appsdeveloperblog/photoapp/api/albums/service/AlbumsService.java,9/9/99917bd3e2854f177a50a784dfd99df86432e350
-ù
-mPhotoAppApiAlbums/src/main/java/com/appsdeveloperblog/photoapp/api/albums/service/impl/AlbumsServiceImpl.java,6/9/6993bdeead56b3f9063708a64baf7b4687ac4a16
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-H
-PhotoAppApiUsers/pom.xml,c/e/ce899db8f394106ca376f0f2f6d1d516d73ca123
 ó
 gPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/model/LoginRequestModel.java,9/6/9631f55794a1c00458d29229fedc58e15b452da6
 ù
@@ -44,21 +38,9 @@ mPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/mode
 lPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/model/CreateUserRequestModel.java,8/5/8517c44aa163fd9d3c6dffe2d69a56af5bedb3f5
 ã
 [PhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/shared/UserDto.java,b/a/ba498c0454d1947c1183d075e8f6ff0dba5519b1
-ï
-ePhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/shared/FeignErrorDecoder.java,d/6/d684d6b84b7bd8ab545afb4b6befe8dafbf5082d
 ë
 aPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/service/UsersService.java,1/4/140718e2ffd45bac987b310450471ad99b7b4c34
-û
-nPhotoAppApiAlbums/src/main/java/com/appsdeveloperblog/photoapp/api/albums/io/controllers/AlbumsController.java,7/f/7fd9474838da5a5cda7dd94c37418d00948f0b12
 ò
 hPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/model/AlbumResponseModel.java,5/e/5eb571adaa4138022a21b6e9c5e240d70739a0eb
 ó
 gPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/model/UserResponseModel.java,c/e/ce1326ae7482f4bc7cc377577617384ca14431a5
-ï
-ePhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/data/AlbumsServiceClient.java,7/b/7bfea387ae144cea5ae2fcb7e7dd655f49a96c40
-ò
-hPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/PhotoAppApiUsersApplication.java,a/f/af0a9fccc623c7f5046bb491a6c80bf50bfdb489
-ö
-jPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/service/impl/UsersServiceImpl.java,1/8/1886289c33b3aec963b8e84eaa404ef96cfb28f3
-õ
-kPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/controllers/UsersController.java,e/f/ef2697cb6730aeaff0044fa63d068bcb6e6a5348
