@@ -10,15 +10,15 @@
         <module name="PhotoAppApiZuulAPIGateway" />
         <module name="PhotoAppAPIConfigServer" />
         <module name="mobile-app-ws" />
-        <module name="ApiGateway" />
         <module name="PhotoAppDiscoveryService" />
         <module name="PhotoAppApiAlbums" />
+        <module name="ApiGateway" />
         <module name="PhotoAppApiUsers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="17" />
-      <module name="ApiGateway" target="11" />
+      <module name="ApiGateway" target="1.8" />
       <module name="mobile-app-ws" target="17" />
       <module name="photo-app-zuul-api-gateway" target="17" />
       <module name="photoappaccountmanagement" target="17" />

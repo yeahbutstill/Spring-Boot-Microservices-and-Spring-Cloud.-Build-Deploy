@@ -1,9 +1,9 @@
 package com.appsdeveloperblog.photoapp.api.users.shared;
 
+import com.appsdeveloperblog.photoapp.api.users.ui.model.AlbumResponseModel;
+
 import java.io.Serializable;
 import java.util.List;
-
-import com.appsdeveloperblog.photoapp.api.users.ui.model.AlbumResponseModel;
 
 public class UserDto implements Serializable {
 	/**
