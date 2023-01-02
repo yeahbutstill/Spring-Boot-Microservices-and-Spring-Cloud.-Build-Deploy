@@ -22,9 +22,16 @@ postgres:15
 ```shell
 psql -h 127.0.0.1 -U sergey photo_app
 ```
+
+
 ## Download and add JCE to JRE
+if you using java 8
 ```text
 https://www.oracle.com/java/technologies/javase-jce8-downloads.html
+```
+unzip and paste to path:
+```text
+/home/yeahbutstill/.sdkman/candidates/java/8.0.352-tem/jre/lib/security/
 ```
 
 ## Generate keystore for asymetric encryption
@@ -41,7 +48,16 @@ run this to clear warning, it is recommended to migrate to PKCS12 which is an in
 ```shell
 keytool -importkeystore -srckeystore apiEncryptionKey.jks -destkeystore apiEncryptionKey.jks -deststoretype pkcs12
 ```
+## To distributed tracing with sleuth and zipkin
+```shell
+docker run -d -p 9411:9411 openzipkin/zipkin
+```
+http://localhost:9411/zipkin/
 
+## Aggregating log files with ELK stack
+https://www.elastic.co/downloads/
+- Download Logstash
+- Download Elasticsearch
 
 ## Refrensi
 - https://www.appsdeveloperblog.com/restful-web-services/restful-web-services-with-spring-mvc/

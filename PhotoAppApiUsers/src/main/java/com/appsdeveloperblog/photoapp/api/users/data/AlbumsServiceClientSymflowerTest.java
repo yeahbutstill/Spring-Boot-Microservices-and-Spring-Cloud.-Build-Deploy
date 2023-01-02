@@ -1,9 +1,10 @@
 package com.appsdeveloperblog.photoapp.api.users.data;
 
 import com.appsdeveloperblog.photoapp.api.users.ui.model.AlbumResponseModel;
+import org.junit.Assert;
+import org.junit.Test;
+
 import java.util.List;
-import org.junit.jupiter.api.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class AlbumsServiceClientSymflowerTest {
 	@Test
@@ -14,6 +15,6 @@ public class AlbumsServiceClientSymflowerTest {
 		List<AlbumResponseModel> expected = null; // TODO This is a fallback value due to incomplete analysis.
 		List<AlbumResponseModel> actual = a.getAlbumsFallback(id, exception);
 
-		assertEquals(expected, actual);
+		Assert.assertEquals(expected, actual);
 	}
 }
