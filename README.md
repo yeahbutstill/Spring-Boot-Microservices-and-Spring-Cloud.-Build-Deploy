@@ -5,6 +5,14 @@
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
 ```
 
+## Eureka 
+```text
+http://localhost:8010/
+
+username: test
+password: test
+```
+
 ## Download and Install Postgres
 ```shell
 docker run --rm \
