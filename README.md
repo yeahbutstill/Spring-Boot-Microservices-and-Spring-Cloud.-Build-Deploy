@@ -138,6 +138,11 @@ enrollment token
 bin/elasticsearch-create-enrollment-token --scope kibana
 ```
 
+## Docker AWS EC2
+```shell
+
+```
+
 ## Refrensi
 - https://www.appsdeveloperblog.com/restful-web-services/restful-web-services-with-spring-mvc/
 - https://www.appsdeveloperblog.com/microservices-and-spring-cloud-tutorials-for-beginners/

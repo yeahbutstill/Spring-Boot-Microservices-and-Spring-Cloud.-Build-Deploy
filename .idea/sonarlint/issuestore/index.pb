@@ -58,5 +58,3 @@ tPhotoAppApiZuulAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gate
 xPhotoAppDiscoveryService/src/main/java/com/appsdeveloperblog/photoapp/discovery/PhotoAppDiscoveryServiceApplication.java,9/0/90fb9aac146698f25c7028dda51c33d698d210e1
 P
  PhotoAppDiscoveryService/pom.xml,8/5/8555365736d33305fb9ee941b6b935cb8a37c840
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
