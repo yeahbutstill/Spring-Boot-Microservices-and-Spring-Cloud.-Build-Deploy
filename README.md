@@ -139,11 +139,40 @@ bin/elasticsearch-create-enrollment-token --scope kibana
 ```
 
 ## Docker AWS EC2
-```shell
+- Config Server
+    ```shell
+    # connect to your instance config server
+    ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com
+    
+    # mapping port rabbitmq and change user and password
+    docker run -d --name rabbit-name-management -p 15672:15672 -p 5672:5672 -p 15671:15671 -p 5671:5671 -p 4369:4369 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
+  
+    # mapping port config server to run rabbitmq in docker container
+    docker run -d -p 8012:8012 -e "spring.rabbitmq.host=172.17.0.2" 2819930922/config-server
+  
+    # access public DNS rabbitmq
+    http://ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com:15672
+    # username: user
+    # password: password
+    ```
+  
+- Eureka Server
+    ```shell
+    # connect to your instance eureka server
+    ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-52-221-193-117.ap-southeast-1.compute.amazonaws.com
+    
+    # mapping port eureka server to clone config properties from config server in docker container
+    docker run -d -p 8010:8010 -e "spring.cloud.config.uri=http://172.31.39.158:8012" 2819930922/eureka-server
+  
+    # access public DNS eureka
+    http://ec2-52-221-193-117.ap-southeast-1.compute.amazonaws.com:8010
+    # user: test
+    # password: test
+    ```
 
-```
 
-## Refrensi
+## Reference
 - https://www.appsdeveloperblog.com/restful-web-services/restful-web-services-with-spring-mvc/
 - https://www.appsdeveloperblog.com/microservices-and-spring-cloud-tutorials-for-beginners/
 - https://www.appsdeveloperblog.com/category/oauth2/
+- https://www.appsdeveloperblog.com/docker-commands-cheat-sheet/

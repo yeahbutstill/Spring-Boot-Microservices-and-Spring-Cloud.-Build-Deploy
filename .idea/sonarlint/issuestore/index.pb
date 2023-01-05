@@ -58,3 +58,13 @@ tPhotoAppApiZuulAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gate
 xPhotoAppDiscoveryService/src/main/java/com/appsdeveloperblog/photoapp/discovery/PhotoAppDiscoveryServiceApplication.java,9/0/90fb9aac146698f25c7028dda51c33d698d210e1
 P
  PhotoAppDiscoveryService/pom.xml,8/5/8555365736d33305fb9ee941b6b935cb8a37c840
+ 
+pPhotoAppAPIConfigServer/src/main/java/com/appsdeveloperblog/photoapp/api/PhotoAppApiConfigServerApplication.java,a/a/aaf71eb9d08a4f3ca7dae5d8ab4b586e8ade2cb3
+R
+"PhotoAppAPIConfigServer/dockerfile,b/0/b022ffeb9ebbe7a9dd3b0890bb9c557683bd4f70
+O
+PhotoAppAPIConfigServer/pom.xml,7/5/75cb2d461c45775fa75622aade949de78c19a109
+S
+#PhotoAppDiscoveryService/dockerfile,3/3/33fb994baecbccd24a4a09c4254299df238c002e
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
