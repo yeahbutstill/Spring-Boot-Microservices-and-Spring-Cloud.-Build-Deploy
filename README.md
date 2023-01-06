@@ -5,7 +5,7 @@
 
 ## Download and Install RabbitMQ
 ```shell
-docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
+docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 ```
 
 ## Eureka 
@@ -48,7 +48,7 @@ unzip and paste to path:
 ## Generate keystore for asymetric encryption
 https://docs.oracle.com/javase/8/docs/technotes/guides/security/StandardNames.html
 
-but this olg algo
+but this old algo
 ```shell
 keytool -genkeypair -alias apiEncryptionKey -keyalg RSA \
 -dname "CN=Sergey Kargopolov,OU=API Development,O=appsdeveloperblog.com,L=Ottawa,S=ON,C=CA" \
@@ -147,6 +147,7 @@ mvn clean package
 docker build --tag=zuul-api-gateway --force-rm=true .
 docker build --tag=config-server --force-rm=true .
 docker build --tag=eureka-server --force-rm=true .
+docker build --tag=api-gateway --force-rm=true .
 
 # copy image
 docker tag {id docker image} {user name}/{name repo dockerhub}
@@ -155,6 +156,7 @@ docker tag {id docker image} {user name}/{name repo dockerhub}
 docker push {user name}/zuul-api-gateway
 docker push {user name}/config-server
 docker push {user name}/eureka-server
+docker push {user name}/api-gateway
 ```
 
 ## Docker AWS EC2
@@ -167,7 +169,7 @@ docker push {user name}/eureka-server
      docker run -d --name rabbit-name-management -p 15672:15672 -p 5672:5672 -p 15671:15671 -p 5671:5671 -p 4369:4369 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
   
      # mapping port config server to run rabbitmq in docker container
-     docker run -d -p 8012:8012 -e "spring.rabbitmq.host=172.31.39.158" 2819930922/config-server
+     docker run -d -p 8012:8012 -e "spring.rabbitmq.host=172.17.0.2" 2819930922/config-server
   
      # access public DNS rabbitmq
      http://ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com:15672
@@ -192,7 +194,7 @@ docker push {user name}/eureka-server
 - Zuul API Gateway
     ```shell
     ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-18-140-78-0.ap-southeast-1.compute.amazonaws.com
-    docker run -d -e "spring.cloud.config.uri=http://172.31.39.158:8012" -e "spring.rabbitmq.host=172.31.39.158" -p 8011:8011 2819930922/zuul-api-gateway
+    docker run -d -p 8082:8082 -e "spring.cloud.config.uri=http://172.31.39.158:8012" -e "spring.rabbitmq.host=172.31.39.158" 2819930922/api-gateway
     ```
 
 
