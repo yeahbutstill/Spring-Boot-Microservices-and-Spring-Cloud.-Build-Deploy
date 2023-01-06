@@ -138,22 +138,41 @@ enrollment token
 bin/elasticsearch-create-enrollment-token --scope kibana
 ```
 
+## Build image and push to dockerhub
+```shell
+# make jar
+mvn clean package
+
+# build image
+docker build --tag=zuul-api-gateway --force-rm=true .
+docker build --tag=config-server --force-rm=true .
+docker build --tag=eureka-server --force-rm=true .
+
+# copy image
+docker tag {id docker image} {user name}/{name repo dockerhub}
+
+# push to dockerhub
+docker push {user name}/zuul-api-gateway
+docker push {user name}/config-server
+docker push {user name}/eureka-server
+```
+
 ## Docker AWS EC2
 - Config Server
     ```shell
-    # connect to your instance config server
-    ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com
+     # connect to your instance config server
+     ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com
     
-    # mapping port rabbitmq and change user and password
-    docker run -d --name rabbit-name-management -p 15672:15672 -p 5672:5672 -p 15671:15671 -p 5671:5671 -p 4369:4369 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
+     # mapping port rabbitmq and change user and password
+     docker run -d --name rabbit-name-management -p 15672:15672 -p 5672:5672 -p 15671:15671 -p 5671:5671 -p 4369:4369 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
   
-    # mapping port config server to run rabbitmq in docker container
-    docker run -d -p 8012:8012 -e "spring.rabbitmq.host=172.17.0.2" 2819930922/config-server
+     # mapping port config server to run rabbitmq in docker container
+     docker run -d -p 8012:8012 -e "spring.rabbitmq.host=172.17.0.2" 2819930922/config-server
   
-    # access public DNS rabbitmq
-    http://ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com:15672
-    # username: user
-    # password: password
+     # access public DNS rabbitmq
+     http://ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com:15672
+     # username: user
+     # password: password
     ```
   
 - Eureka Server
@@ -170,9 +189,15 @@ bin/elasticsearch-create-enrollment-token --scope kibana
     # password: test
     ```
 
+- Zuul API Gateway
+    ```shell
+    ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-18-140-78-0.ap-southeast-1.compute.amazonaws.com
+    docker run -d -e "spring.cloud.config.uri=http://172.31.39.158:8012" -e "spring.rabbitmq.host=172.31.39.158" -p 8011:8011 2819930922/zuul-api-gateway
+    ```
+
 
 ## Reference
 - https://www.appsdeveloperblog.com/restful-web-services/restful-web-services-with-spring-mvc/
 - https://www.appsdeveloperblog.com/microservices-and-spring-cloud-tutorials-for-beginners/
 - https://www.appsdeveloperblog.com/category/oauth2/
-- https://www.appsdeveloperblog.com/docker-commands-cheat-sheet/
+- Authenticationtps://www.appsdeveloperblog.com/docker-commands-cheat-sheet/

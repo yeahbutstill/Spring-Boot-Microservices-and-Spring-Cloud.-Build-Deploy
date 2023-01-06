@@ -40,31 +40,5 @@ gPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/mode
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-¨
-|PhotoAppApiZuulAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gateway/PhotoAppApiZuulApiGatewayApplication.java,5/4/54b25d14ada18db209733b5c2e94e8bb345ccd6d
-û
-nSpringCloudAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gateway/GlobalFiltersConfiguration.java,a/3/a3f9ac9092052af44357f52bae9ecfc29812512c
-ù
-mSpringCloudAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gateway/AuthorizationHeaderFilter.java,b/c/bc9050978a31c8dfcff3ba540651f3b47ca55c44
-ê
-`SpringCloudAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gateway/MyPostFilter.java,b/e/be1ab7d8e204c765df8214ee10aff5242bb95ceb
-è
-_SpringCloudAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gateway/MyPreFilter.java,b/2/b2bbf695b731cd42107824f250bf9faffacd3be2
-§
-tPhotoAppApiZuulAPIGateway/src/main/java/com/appsdeveloperblog/photoapp/api/gateway/security/AuthorizationFilter.java,7/7/77789df922add2c83d79446e87d83890927e6bc3
-ê
-`PhotoAppDiscoveryService/src/main/java/com/appsdeveloperblog/photoapp/discovery/WebSecurity.java,e/6/e671aabdcdbe14841ec9ece3d91ed1c9d9b64b78
-®
-xPhotoAppDiscoveryService/src/main/java/com/appsdeveloperblog/photoapp/discovery/PhotoAppDiscoveryServiceApplication.java,9/0/90fb9aac146698f25c7028dda51c33d698d210e1
-P
- PhotoAppDiscoveryService/pom.xml,8/5/8555365736d33305fb9ee941b6b935cb8a37c840
-†
-pPhotoAppAPIConfigServer/src/main/java/com/appsdeveloperblog/photoapp/api/PhotoAppApiConfigServerApplication.java,a/a/aaf71eb9d08a4f3ca7dae5d8ab4b586e8ade2cb3
-R
-"PhotoAppAPIConfigServer/dockerfile,b/0/b022ffeb9ebbe7a9dd3b0890bb9c557683bd4f70
 O
 PhotoAppAPIConfigServer/pom.xml,7/5/75cb2d461c45775fa75622aade949de78c19a109
-S
-#PhotoAppDiscoveryService/dockerfile,3/3/33fb994baecbccd24a4a09c4254299df238c002e
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
