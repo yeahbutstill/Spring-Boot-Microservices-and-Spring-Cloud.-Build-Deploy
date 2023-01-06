@@ -40,5 +40,3 @@ gPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/mode
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-O
-PhotoAppAPIConfigServer/pom.xml,7/5/75cb2d461c45775fa75622aade949de78c19a109
