@@ -167,7 +167,7 @@ docker push {user name}/eureka-server
      docker run -d --name rabbit-name-management -p 15672:15672 -p 5672:5672 -p 15671:15671 -p 5671:5671 -p 4369:4369 -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password rabbitmq:3-management
   
      # mapping port config server to run rabbitmq in docker container
-     docker run -d -p 8012:8012 -e "spring.rabbitmq.host=172.17.0.2" 2819930922/config-server
+     docker run -d -p 8012:8012 -e "spring.rabbitmq.host=172.31.39.158" 2819930922/config-server
   
      # access public DNS rabbitmq
      http://ec2-52-77-244-91.ap-southeast-1.compute.amazonaws.com:15672
@@ -193,7 +193,6 @@ docker push {user name}/eureka-server
     ```shell
     ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-18-140-78-0.ap-southeast-1.compute.amazonaws.com
     docker run -d -e "spring.cloud.config.uri=http://172.31.39.158:8012" -e "spring.rabbitmq.host=172.31.39.158" -p 8011:8011 2819930922/zuul-api-gateway
-    docker run -d -p 8011:8011 2819930922/zuul-api-gateway
     ```
 
 
