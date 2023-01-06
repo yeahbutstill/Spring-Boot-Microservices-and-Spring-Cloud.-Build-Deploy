@@ -1,6 +1,5 @@
 package com.appsdeveloperblog.photoapp.api.users;
 
-import feign.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,6 +11,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.core.env.Environment;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.client.RestTemplate;
+import feign.Logger;
 
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -72,5 +72,12 @@ public class PhotoAppApiUsersApplication {
 		System.out.println("Development bean created. myapplication.environment = " + environment.getProperty("myapplication.environment"));
 		return "Development bean";
 	}
+	
+	/*
+	@Bean
+	public FeignErrorDecoder getFeignErrorDecoder()
+	{
+		return new FeignErrorDecoder();
+	} */
 
 }

@@ -1,19 +1,3 @@
-======================================================================
-
-Current versions of the JDK do not require separate unlimited policy files.
-They are provided for use with older versions.
-
-The unlimited policy files for earlier releases are required only for
-JDK 8 updates earlier than 8u161.
-
-On later versions unlimited strength cryptographic algorithms are
-available by default.
-
-See https://bugs.openjdk.java.net/browse/JDK-8170157 for details.
-
-The information provided below is relevant to old JDK versions only.
-
-======================================================================
 
    Unlimited Strength Java(TM) Cryptography Extension Policy Files
   for the Java(TM) Platform, Standard Edition Runtime Environment 8
