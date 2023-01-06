@@ -193,6 +193,7 @@ docker push {user name}/eureka-server
     ```shell
     ssh -i "photo-app-api-keypair.pem" ec2-user@ec2-18-140-78-0.ap-southeast-1.compute.amazonaws.com
     docker run -d -e "spring.cloud.config.uri=http://172.31.39.158:8012" -e "spring.rabbitmq.host=172.31.39.158" -p 8011:8011 2819930922/zuul-api-gateway
+    docker run -d -p 8011:8011 2819930922/zuul-api-gateway
     ```
 
 
