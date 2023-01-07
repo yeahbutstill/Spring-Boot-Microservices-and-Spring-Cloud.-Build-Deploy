@@ -5,16 +5,12 @@ amobile-app-ws/src/main/java/com/yeahbutstill/app/ws/ui/model/request/UserDetail
 gmobile-app-ws/src/main/java/com/yeahbutstill/app/ws/ui/model/request/UpdateUserDetailsRequestModel.java,2/5/25e4b7956cf57d4dc1994cc86b8c7f163c2cae42
 ƒ
 Smobile-app-ws/src/main/java/com/yeahbutstill/app/ws/ui/model/response/UserRest.java,d/b/dbf176f03f32030a0ad9da0e696a6dc4b13e448d
-E
-mobile-app-ws/pom.xml,0/3/03c7584b95f0bb1482b9a95ada25305b30b7dc4b
 ‡
 Wmobile-app-ws/src/main/java/com/yeahbutstill/app/ws/ui/model/response/ErrorMessage.java,9/2/92254640688bee5e12c8a8f11d51ee0bb77be1a4
 ˆ
 Xmobile-app-ws/src/main/java/com/yeahbutstill/app/ws/exceptions/UserServiceException.java,d/a/dadff20e9ee5b3a8d956acf1f6fb55d6c593f81e
 ˆ
 Xmobile-app-ws/src/main/java/com/yeahbutstill/app/ws/exceptions/AppExceptionsHandler.java,a/9/a9a020cd4326f0e28ff8057f35d986ef7d1521ee
-…
-Umobile-app-ws/src/main/java/com/yeahbutstill/app/ws/ui/controller/UserController.java,b/9/b9c235d23784f3839ccdc4cfa8ca69c0a25abfa3
 •
 emobile-app-ws/src/main/java/com/yeahbutstill/app/ws/exceptions/UserServiceExceptionSymflowerTest.java,0/8/08d274c7a7879f7582bd98e56b8fdee92d40d928
 š
@@ -40,3 +36,17 @@ gPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/mode
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+R
+"PhotoAppAPIConfigServer/dockerfile,b/0/b022ffeb9ebbe7a9dd3b0890bb9c557683bd4f70
+S
+#PhotoAppDiscoveryService/dockerfile,3/3/33fb994baecbccd24a4a09c4254299df238c002e
+H
+PhotoAppApiUsers/pom.xml,c/e/ce899db8f394106ca376f0f2f6d1d516d73ca123
+«
+{PhotoAppApiAccountManagement/src/main/java/com/appsdeveloperblog/photoapp/api/account/ui/controllers/AccountController.java,e/3/e3be5235146d4372fe25075aef852e29fe02bc31
+E
+mobile-app-ws/pom.xml,0/3/03c7584b95f0bb1482b9a95ada25305b30b7dc4b
+…
+Umobile-app-ws/src/main/java/com/yeahbutstill/app/ws/ui/controller/UserController.java,b/9/b9c235d23784f3839ccdc4cfa8ca69c0a25abfa3
+›
+kPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/controllers/UsersController.java,e/f/ef2697cb6730aeaff0044fa63d068bcb6e6a5348

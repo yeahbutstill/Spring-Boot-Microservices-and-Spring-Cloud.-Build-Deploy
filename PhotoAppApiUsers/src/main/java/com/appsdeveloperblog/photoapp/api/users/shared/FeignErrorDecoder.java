@@ -1,13 +1,12 @@
 package com.appsdeveloperblog.photoapp.api.users.shared;
 
+import feign.Response;
+import feign.codec.ErrorDecoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ResponseStatusException;
-
-import feign.Response;
-import feign.codec.ErrorDecoder;
 
 @Component
 public class FeignErrorDecoder implements ErrorDecoder {

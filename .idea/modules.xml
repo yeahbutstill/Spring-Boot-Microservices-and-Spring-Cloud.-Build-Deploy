@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringCloudAPIGateway/ApiGateway.iml" filepath="$PROJECT_DIR$/SpringCloudAPIGateway/ApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudAPIGateway-update-spring-boot-v3.0.1/ApiGateway.iml" filepath="$PROJECT_DIR$/SpringCloudAPIGateway-update-spring-boot-v3.0.1/ApiGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhotoAppAPIConfigServer/PhotoAppAPIConfigServer.iml" filepath="$PROJECT_DIR$/PhotoAppAPIConfigServer/PhotoAppAPIConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" filepath="$PROJECT_DIR$/PhotoAppApiAccountManagement/PhotoAppApiAccountManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/PhotoAppApiAlbums/PhotoAppApiAlbums.iml" filepath="$PROJECT_DIR$/PhotoAppApiAlbums/PhotoAppApiAlbums.iml" />

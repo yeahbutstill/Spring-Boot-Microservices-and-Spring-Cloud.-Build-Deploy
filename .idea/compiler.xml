@@ -11,8 +11,8 @@
         <module name="PhotoAppApiZuulAPIGateway" />
         <module name="PhotoAppAPIConfigServer" />
         <module name="mobile-app-ws" />
-        <module name="PhotoAppDiscoveryService" />
         <module name="PhotoAppApiAlbums" />
+        <module name="PhotoAppDiscoveryService" />
         <module name="ApiGateway" />
         <module name="PhotoAppApiUsers" />
       </profile>

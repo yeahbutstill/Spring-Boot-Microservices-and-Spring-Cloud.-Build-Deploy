@@ -138,6 +138,11 @@ enrollment token
 bin/elasticsearch-create-enrollment-token --scope kibana
 ```
 
+## Run profile active
+```shell
+mvn spring-boot:run -D spring-boot.run.arguments=--spring.profiles.active=production
+```
+
 ## Build image and push to dockerhub
 ```shell
 # make jar

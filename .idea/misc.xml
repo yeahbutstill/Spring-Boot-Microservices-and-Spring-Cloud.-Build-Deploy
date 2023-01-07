@@ -3,20 +3,20 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/mobile-app-ws/pom.xml" />
         <option value="$PROJECT_DIR$/photoappdiscoveryservice/pom.xml" />
         <option value="$PROJECT_DIR$/photoappusers/pom.xml" />
         <option value="$PROJECT_DIR$/photoappaccountmanagement/pom.xml" />
         <option value="$PROJECT_DIR$/photo-app-zuul-api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudAPIGateway-main/pom.xml" />
+        <option value="$PROJECT_DIR$/mobile-app-ws/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppApiAccountManagement/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppApiAlbums/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppAPIConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppApiUsers/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppApiZuulAPIGateway/pom.xml" />
         <option value="$PROJECT_DIR$/PhotoAppDiscoveryService/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloudAPIGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudAPIGateway-update-spring-boot-v3.0.1/pom.xml" />
       </list>
     </option>
   </component>
