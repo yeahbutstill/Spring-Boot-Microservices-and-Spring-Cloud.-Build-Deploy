@@ -1,0 +1,7 @@
+
+w
+java:S1192:"ZDefine a constant instead of duplicating this literal "myapplication.environment" 3 times.(ñÈ¶Ë8öû‰èØ0
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(ñÈ¶Ë8±ü‰èØ0
+Z	java:S106A"9Replace this use of System.out or System.err by a logger.(©Ò®‚úÿÿÿÿ8´ü‰èØ0
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(‡üÿıÿÿÿÿ8¶ü‰èØ0
+]	java:S125O"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8¸ü‰èØ0

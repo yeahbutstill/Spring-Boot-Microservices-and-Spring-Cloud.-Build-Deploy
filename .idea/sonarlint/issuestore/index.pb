@@ -50,3 +50,11 @@ E
 Umobile-app-ws/src/main/java/com/yeahbutstill/app/ws/ui/controller/UserController.java,b/9/b9c235d23784f3839ccdc4cfa8ca69c0a25abfa3
 ›
 kPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/ui/controllers/UsersController.java,e/f/ef2697cb6730aeaff0044fa63d068bcb6e6a5348
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+ 
+pPhotoAppAPIConfigServer/src/main/java/com/appsdeveloperblog/photoapp/api/PhotoAppApiConfigServerApplication.java,a/a/aaf71eb9d08a4f3ca7dae5d8ab4b586e8ade2cb3
+¨
+xPhotoAppDiscoveryService/src/main/java/com/appsdeveloperblog/photoapp/discovery/PhotoAppDiscoveryServiceApplication.java,9/0/90fb9aac146698f25c7028dda51c33d698d210e1
+˜
+hPhotoAppApiUsers/src/main/java/com/appsdeveloperblog/photoapp/api/users/PhotoAppApiUsersApplication.java,a/f/af0a9fccc623c7f5046bb491a6c80bf50bfdb489
